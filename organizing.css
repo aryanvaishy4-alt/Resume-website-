@@ -1,0 +1,168 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 30px;
+    color: #333333;
+}
+
+/* Main Resume Card wrapper */
+.resume-wrapper {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+/* --- LEFT SIDEBAR STYLING --- */
+.sidebar {
+    width: 30%;
+    background-color: #e2e8f0;
+    padding: 30px 20px;
+    border-right: 2px solid #cbd5e1;
+}
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.sidebar-section {
+    margin-bottom: 25px;
+}
+
+.sidebar-section h3 {
+    font-size: 0.95rem;
+    color: #1e293b;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-section ul {
+    padding-left: 15px;
+    margin: 0;
+}
+
+.sidebar-section li {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    color: #475569;
+}
+
+/* --- RIGHT MAIN CONTENT STYLING --- */
+.main-content {
+    width: 70%;
+    padding: 35px;
+}
+
+.header-section h1 {
+    margin: 0 0 5px 0;
+    font-size: 2rem;
+    color: #0f172a;
+    letter-spacing: -0.5px;
+}
+
+.header-section .title {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.contact-line {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Separator line */
+.separator {
+    border: none;
+    height: 2px;
+    background-color: #2563eb;
+    margin: 20px 0;
+}
+
+/* Content Sections */
+.content-section {
+    margin-bottom: 20px;
+}
+
+.content-section h2 {
+    font-size: 1rem;
+    color: #1e293b;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.summary-text {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.item-block {
+    margin-bottom: 10px;
+}
+
+.item-block h3 {
+    font-size: 0.95rem;
+    margin: 0 0 2px 0;
+    color: #0f172a;
+}
+
+.sub-text {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #475569;
+}
+
+/* --- SUBMISSION PAGE STYLING --- */
+.submission-page {
+    display: block;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.submission-page h1 {
+    font-size: 1.8rem;
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.submission-page a {
+    color: #2563eb;
+    text-decoration: underline;
+}
